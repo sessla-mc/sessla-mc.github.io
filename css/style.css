@@ -1,0 +1,236 @@
+* {
+	float: none;
+	position: static;
+}
+
+@media screen and (min-width:481px) {
+    body {
+        background-image: url("../files/index_backimage.png");
+        background-attachment: fixed;
+    }
+    
+    .top {
+        box-sizing: inherit;
+        color: white;
+        font-size: 50px;
+        transform: translate(550px,0px);
+        margin: 0px 0 0px;
+        width: 750px;
+        height: 220px;
+        line-height: 220px;
+        text-align: center;
+        background: linear-gradient(200deg, rgb(0, 30, 255), rgb(166, 0, 255));
+    }
+    
+    .big {
+        box-sizing: inherit;
+        color:black;
+        font-size: 40px;
+        margin: 0px 0 0px;
+        transform: translate(630px,20px);
+        width: 560px;
+        background: linear-gradient(90deg, rgb(0, 255, 55), rgb(0, 251, 255));
+    }
+    
+    .headline {
+        box-sizing: inherit;
+        color: black;
+        font-size: 35px;
+        width: 215px;
+        margin: 0px 0 0px;
+        transform: translate(450px,60px);
+        background-color: aqua;
+    }
+    
+    .string {
+        box-sizing: inherit;
+        color:black;
+        font-size: 25px;
+        transform: translate(450px,60px);
+        margin: 0px 0 0px;
+        width: 950px;
+        background-color: white;
+    }
+    
+    .headline_2 {
+        box-sizing: inherit;
+        color: black;
+        font-size: 35px;
+        width: 570px;
+        margin: 0px 0 0px;
+        transform: translate(450px,60px);
+        background-color: aqua;
+    }
+    
+    .profiles {
+        width: 600px;
+        height: 600px;
+        transform: translate(450px,60px);
+    }
+    
+    .string_2 {
+        box-sizing: inherit;
+        color:black;
+        font-size: 25px;
+        transform: translate(450px,52px);
+        margin: 0px 0 0px;
+        width: 950px;
+        background-color: white;
+    }
+    
+    .headline_3 {
+        box-sizing: inherit;
+        color: black;
+        font-size: 35px;
+        width: 820px;
+        margin: 0px 0 0px;
+        transform: translate(450px,52px);
+        background-color: aqua;
+    }
+    
+    .string_3 {
+        box-sizing: inherit;
+        color:black;
+        font-size: 25px;
+        transform: translate(450px,52px);
+        margin: 0px 0 0px;
+        width: 950px;
+        background-color: white;
+    }
+    
+    .headline_4 {
+        box-sizing: inherit;
+        color: black;
+        font-size: 35px;
+        width: 180px;
+        margin: 0px 0 0px;
+        transform: translate(450px,52px);
+        background-color: aqua;
+    }
+    
+    .string_4 {
+        box-sizing: inherit;
+        color:black;
+        font-size: 25px;
+        transform: translate(450px,52px);
+        margin: 0px 0 0px;
+        width: 950px;
+        background-color: white;
+    }
+}
+
+@media screen and (max-width:480px) {
+
+    body {
+        background: rgb(95, 95, 95);
+    }
+    
+    .top {
+        box-sizing: inherit;
+        color: white;
+        font-size: 25px;
+        transform: translate(15px,0px);
+        margin: 0px 0 0px;
+        width: 320px;
+        height: 90px;
+        line-height: 90px;
+        text-align: center;
+        background: linear-gradient(200deg, rgb(0, 30, 255), rgb(166, 0, 255));
+    }
+    
+    .big {
+        box-sizing: inherit;
+        color:black;
+        font-size: 20px;
+        margin: 0px 0 0px;
+        transform: translate(33px,20px);
+        width: 280px;
+        background: linear-gradient(90deg, rgb(0, 255, 55), rgb(0, 251, 255));
+    }
+    
+    .headline {
+        box-sizing: inherit;
+        color: black;
+        font-size: 20px;
+        width: 330px;
+        margin: 0px 0 0px;
+        transform: translate(15px,40px);
+        background-color: aqua;
+    }
+    
+    .string {
+        box-sizing: inherit;
+        color:black;
+        font-size: 15px;
+        transform: translate(15px,40px);
+        margin: 0px 0 0px;
+        width: 330px;
+        background-color: white;
+    }
+    
+    .headline_2 {
+        box-sizing: inherit;
+        color: black;
+        font-size: 20px;
+        width: 330px;
+        margin: 0px 0 0px;
+        transform: translate(15px,40px);
+        background-color: aqua;
+    }
+    
+    .profiles {
+        width: 250px;
+        height: 250px;
+        transform: translate(15px,40px);
+    }
+    
+    .string_2 {
+        box-sizing: inherit;
+        color:black;
+        font-size: 15px;
+        transform: translate(15px,32px);
+        margin: 0px 0 0px;
+        width: 330px;
+        background-color: white;
+    }
+    
+    .headline_3 {
+        box-sizing: inherit;
+        color: black;
+        font-size: 20px;
+        width: 330px;
+        margin: 0px 0 0px;
+        transform: translate(15px,32px);
+        background-color: aqua;
+    }
+    
+    .string_3 {
+        box-sizing: inherit;
+        color:black;
+        font-size: 15px;
+        transform: translate(15px,32px);
+        margin: 0px 0 0px;
+        width: 330px;
+        background-color: white;
+    }
+    
+    .headline_4 {
+        box-sizing: inherit;
+        color: black;
+        font-size: 20px;
+        width: 330px;
+        margin: 0px 0 0px;
+        transform: translate(15px,32px);
+        background-color: aqua;
+    }
+    
+    .string_4 {
+        box-sizing: inherit;
+        color:black;
+        font-size: 15px;
+        transform: translate(15px,32px);
+        margin: 0px 0 0px;
+        width: 330px;
+        background-color: white;
+    }
+}
