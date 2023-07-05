@@ -118,6 +118,7 @@
     body {
         background-image: url(../files/sp_index_backimage.png);
         background-attachment: fixed;
+        transform: translate(0px,0px);
     }
     
     .top {
@@ -229,19 +230,18 @@
     }
 }
 
-@media (max-width:280px) {
+@media (max-width:390px) {
 
     body {
         background-image: url(../files/sp_index_backimage.png);
         background-attachment: fixed;
-        transform: translate(2px,0px);
     }
     
     .top {
         box-sizing: inherit;
         color: white;
         font-size: 25px;
-        transform: translate(-3px,0px);
+        transform: translate(0px,0px);
         margin: 0 auto;
         width: 320px;
         height: 90px;
@@ -255,7 +255,7 @@
         color:black;
         font-size: 20px;
         margin: 0 auto;
-        transform: translate(15px,20px);
+        transform: translate(0px,20px);
         width: 280px;
         background: linear-gradient(90deg, rgb(0, 255, 55), rgb(0, 251, 255));
     }
@@ -266,7 +266,7 @@
         font-size: 20px;
         width: 330px;
         margin: 0 auto;
-        transform: translate(-7px,40px);
+        transform: translate(0px,40px);
         background-color: aqua;
     }
     
@@ -274,7 +274,7 @@
         box-sizing: inherit;
         color:black;
         font-size: 15px;
-        transform: translate(-7px,40px);
+        transform: translate(0px,40px);
         margin: 0 auto;
         width: 330px;
         background-color: white;
@@ -286,7 +286,7 @@
         font-size: 20px;
         width: 330px;
         margin: 0 auto;
-        transform: translate(-7px,40px);
+        transform: translate(0px,40px);
         background-color: aqua;
     }
     
@@ -299,7 +299,7 @@
         box-sizing: inherit;
         color:black;
         font-size: 15px;
-        transform: translate(-7px,32px);
+        transform: translate(0px,32px);
         margin: 0 auto;
         width: 330px;
         background-color: white;
@@ -311,7 +311,7 @@
         font-size: 20px;
         width: 330px;
         margin: 0 auto;
-        transform: translate(-7px,32px);
+        transform: translate(0px,32px);
         background-color: aqua;
     }
     
@@ -319,7 +319,7 @@
         box-sizing: inherit;
         color:black;
         font-size: 15px;
-        transform: translate(-7px,32px);
+        transform: translate(0px,32px);
         margin: 0 auto;
         width: 330px;
         background-color: white;
@@ -331,7 +331,7 @@
         font-size: 20px;
         width: 330px;
         margin: 0 auto;
-        transform: translate(-7px,32px);
+        transform: translate(0px,32px);
         background-color: aqua;
     }
     
@@ -339,7 +339,7 @@
         box-sizing: inherit;
         color:black;
         font-size: 15px;
-        transform: translate(-7px,32px);
+        transform: translate(0px,32px);
         margin: 0 auto;
         width: 330px;
         background-color: white;
