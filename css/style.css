@@ -118,7 +118,6 @@
     body {
         background-image: url(../files/sp_index_backimage.png);
         background-attachment: fixed;
-        transform: translate(0px,0px);
     }
     
     .top {
