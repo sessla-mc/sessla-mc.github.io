@@ -1,0 +1,218 @@
+@media screen and (max-width:480px) {
+    /*背景の固定とカラー変更*/
+    body {
+        background-color: #232323;
+        background-attachment: fixed;
+    }
+
+    #header {
+        margin: 0 auto;
+        transform: translateY(-10px);
+        height: 60px;
+    }
+
+    .head_content_wrap {
+        background-color: white;
+        margin: 0 auto;
+        height: 70px;
+        text-align: center;
+    }
+
+    h1.top {
+        transform: translateY(10px);
+    }
+    
+    .menu_wrap {
+        display: block;
+        background-color: white;
+        background-attachment: fixed;
+        width: auto;
+        height: 40px;
+
+    }
+
+    ul.menubar {
+        margin: 0px;
+        padding: 0xp 0px 0px 15px;
+        background-color: #c00;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    ul.menubar li {
+        width: 150px;
+        display: inline-block;
+        list-style-type: none;
+        position: relative;
+    }
+    ul.menubar a {
+        background-color: #c00;
+        color: white;
+        line-height: 40px;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        display: block;
+    }
+    ul.menubar a:hover {
+        background-color: #fdd;
+        color: #d00;
+    }
+    ul.menubar ul {
+        display: none;
+        margin: 0px;
+        padding: 0px;
+        position: absolute;
+    }
+    ul.menubar li:hover ul {
+        display: block;
+    }
+    
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    body {
+        background-color: #232323;
+        background-attachment: fixed;
+    }
+    
+    .maincontent_wrap {
+        display: block;
+        background-color: white;
+        background-attachment: fixed;
+    }
+
+    #header {
+        margin: 0 auto;
+        transform: translateY(-10px);
+        height: 60px;
+    }
+
+    .head_content_wrap {
+        background-color: white;
+        margin: 0 auto;
+        height: 70px;
+        text-align: center;
+    }
+
+    h1.top {
+        transform: translateY(10px);
+    }
+    
+    .menu_wrap {
+        display: block;
+        background-color: white;
+        background-attachment: fixed;
+        width: auto;
+        height: 40px;
+
+    }
+
+    ul.menubar {
+        margin: 0px;
+        padding: 0xp 0px 0px 15px;
+        background-color: #c00;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    ul.menubar li {
+        width: 150px;
+        display: inline-block;
+        list-style-type: none;
+        position: relative;
+    }
+    ul.menubar a {
+        background-color: #c00;
+        color: white;
+        line-height: 40px;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        display: block;
+    }
+    ul.menubar a:hover {
+        background-color: #fdd;
+        color: #d00;
+    }
+    ul.menubar ul {
+        display: none;
+        margin: 0px;
+        padding: 0px;
+        position: absolute;
+    }
+    ul.menubar li:hover ul {
+        display: block;
+    }
+
+}
+
+@media screen and (min-width:1024px) {
+    body {
+        background-color: #232323;
+        background-attachment: fixed;
+    }
+
+    #header {
+        margin: 0 auto;
+        transform: translateY(-10px);
+        height: 60px;
+    }
+
+    .head_content_wrap {
+        background-color: white;
+        margin: 0 auto;
+        height: 70px;
+        text-align: center;
+    }
+
+    h1.top {
+        transform: translateY(10px);
+    }
+    
+    .menu_wrap {
+        display: block;
+        background-color: white;
+        background-attachment: fixed;
+        width: auto;
+        height: 40px;
+
+    }
+
+    ul.menubar {
+        margin: 0px;
+        padding: 0xp 0px 0px 15px;
+        background-color: #c00;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    ul.menubar li {
+        width: 150px;
+        display: inline-block;
+        list-style-type: none;
+        position: relative;
+    }
+    ul.menubar a {
+        background-color: #c00;
+        color: white;
+        line-height: 40px;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        display: block;
+    }
+    ul.menubar a:hover {
+        background-color: #fdd;
+        color: #d00;
+    }
+    ul.menubar ul {
+        display: none;
+        margin: 0px;
+        padding: 0px;
+        position: absolute;
+    }
+    ul.menubar li:hover ul {
+        display: block;
+    }
+}
